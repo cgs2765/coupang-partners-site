@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>추천 상품 리스트</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 class="glow-text">특별한 추천 상품</h1>
+            <p>제가 직접 선별한 최고의 제품들을 만나보세요.</p>
+        </header>
+
+        <main id="product-grid" class="product-grid">
+            <!-- Loading Skeletons -->
+            <div class="product-card">
+                <div class="image-container skeleton"></div>
+                <div class="product-info">
+                    <div class="skeleton" style="height: 16px; width: 90%; margin-bottom: 8px; border-radius: 4px;"></div>
+                    <div class="skeleton" style="height: 16px; width: 60%; border-radius: 4px;"></div>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="image-container skeleton"></div>
+                <div class="product-info">
+                    <div class="skeleton" style="height: 16px; width: 90%; margin-bottom: 8px; border-radius: 4px;"></div>
+                    <div class="skeleton" style="height: 16px; width: 60%; border-radius: 4px;"></div>
+                </div>
+            </div>
+        </main>
+        
+        <footer>
+            <p>이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
